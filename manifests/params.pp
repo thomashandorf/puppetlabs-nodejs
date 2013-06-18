@@ -13,7 +13,6 @@ class nodejs::params {
   case $::operatingsystem {
     'Debian', 'Ubuntu': {
       $node_pkg = 'nodejs'
-      $npm_pkg  = 'npm'
       $dev_pkg  = 'nodejs-dev'
     }
 
