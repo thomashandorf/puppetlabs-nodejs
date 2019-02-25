@@ -1,0 +1,14 @@
+<div v-for="card in cards" class="card">
+  <figure class="image is-4by3">
+    <img src="{{ card.imgsrc }}">
+  </figure>
+  <div class="card-content">
+    <div class="media">
+      <p class="title is-4">{{ card.name }}</p>
+      <p class="subtitle is-6">@{{ card.user }}</p>
+    </div>
+    <div class="content">
+      {{ card.content }}
+    </div>
+  </div>
+</div>
